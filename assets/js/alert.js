@@ -1,4 +1,4 @@
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("L5plAUseqbv2za1wF");
 
   // Tangkap form
     document.getElementById("contactForm").addEventListener("submit", function(e) {
@@ -10,7 +10,7 @@ emailjs.init("YOUR_PUBLIC_KEY");
     btn.textContent = "Mengirim...";
 
     // Kirim form via EmailJS
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+    emailjs.sendForm("service_cwci60j", "template_nkb7jrj", this)
         .then(() => {
         // Alert sukses
         Swal.fire({
