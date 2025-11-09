@@ -144,6 +144,7 @@ border-bottom: var(--border-width) solid var(--color-border);
 }
 
 .form-group {
+    font-family: 'Quicksand';
     margin-bottom: 20px;
 }
 
